@@ -48,6 +48,35 @@
   let name = firstName + " " + middleName +" " + lastName;
   console.log(name);
 
+  console.log("strings on my own:");
+  let greeting = "My name is " + name;
+  console.log(greeting);
+
+  console.log("Using functions:");
+
+  // function to square numbers
+  function makeSquare(theNumb) {
+    let squared = theNumb * theNumb;
+    return squared;
+  }
+  let try01 = makeSquare(3);
+  console.log(try01);
+
+//function to make names
+  function makeName(first, middle, last){
+    let fullname = first + " " + middle + " " + last;
+  return fullname;
+  }
+let try02 = makeName("Charlotte","Elyse", "Doughty");
+console.log(try02)
+
+let try03 = makeName("John", "Fitzgerald", "Kennedy");
+console.log(try03)
+
+let try04 = makeName("Robert", "\"Beto\"", "O'Rourke");
+console.log(try04)
+
+
 </script>
 </body>
 </html>
